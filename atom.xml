@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Android helper]]></title>
   <link href="http://infos.android-helper.com.ua//atom.xml" rel="self"/>
   <link href="http://infos.android-helper.com.ua//"/>
-  <updated>2013-09-25T12:15:32+03:00</updated>
+  <updated>2013-09-25T14:16:28+03:00</updated>
   <id>http://infos.android-helper.com.ua//</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Andrii Stakhov]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
