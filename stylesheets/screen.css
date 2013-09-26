@@ -2,12 +2,12 @@
 Syntax error: Undefined mixin 'shadow-box'.
         on line 16 of /Users/andriistakhov/Work/octopress/sass/custom/_rve.scss, in `shadow-box'
         from line 16 of /Users/andriistakhov/Work/octopress/sass/custom/_rve.scss
-        from line 14 of /Users/andriistakhov/Work/octopress/sass/screen.scss
+        from line 10 of /Users/andriistakhov/Work/octopress/sass/screen.scss
 
 Backtrace:
 /Users/andriistakhov/Work/octopress/sass/custom/_rve.scss:16:in `shadow-box'
 /Users/andriistakhov/Work/octopress/sass/custom/_rve.scss:16
-/Users/andriistakhov/Work/octopress/sass/screen.scss:14
+/Users/andriistakhov/Work/octopress/sass/screen.scss:10
 /Users/andriistakhov/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
 /Users/andriistakhov/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/andriistakhov/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
@@ -67,4 +67,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'shadow-box'.\A         on line 16 of /Users/andriistakhov/Work/octopress/sass/custom/_rve.scss, in `shadow-box'\A         from line 16 of /Users/andriistakhov/Work/octopress/sass/custom/_rve.scss\A         from line 14 of /Users/andriistakhov/Work/octopress/sass/screen.scss"; }
+  content: "Syntax error: Undefined mixin 'shadow-box'.\A         on line 16 of /Users/andriistakhov/Work/octopress/sass/custom/_rve.scss, in `shadow-box'\A         from line 16 of /Users/andriistakhov/Work/octopress/sass/custom/_rve.scss\A         from line 10 of /Users/andriistakhov/Work/octopress/sass/screen.scss"; }
