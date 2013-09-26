@@ -3,10 +3,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>webinar-1000 - Android helper</title>
+	<title>Android helper</title>
     <meta name="author" content="Andrii Stakhov">
     
-	<meta name="description" content="Привет друзья. Некоторые из вас посетили вебинар – «Как зарабатывать от 1000$ на android приложениях». Я вам обещал запись данного вебинара. Перед &hellip;">
+	<meta name="description" content="Search Results $('#search_results').tapir({ 'token': '', 'complete' : function() { document.getElementById('search_loading').style.display="none &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -88,49 +88,21 @@
 <div id="toload">
 <!-- begin toload --> 
     <div id="content" class="inner">
-        <article class="page">
-    
-    <h1 class="title">Webinar-1000</h1>
-    
-    <div class="entry-content"><p>Привет друзья.</p>
-
-<p>Некоторые из вас посетили вебинар – «<strong>Как зарабатывать от 1000$ на android приложениях</strong>». Я вам обещал запись данного вебинара.</p>
-
-<p>Перед началом просмотра вам необходимо сделать следующие вещи:</p>
-
-<ul>
-<li><p>Перейти по <a href="http://android-helper.com.ua/webinar-1000/">ссылке</a></p></li>
-<li><p>Написать отзыв по вебинару</p></li>
-<li><p>Нажать рассказать друзьям</p></li>
-<li><p>Устроиться на вашем кресле поудобнее 😃</p></li>
-</ul>
-
-
-<div class="ratio-4-3 embed-video-container" onclick="var myAnchor = document.getElementById('REr-OK0LUBw');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;http://www.youtube.com/embed/REr-OK0LUBw?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="click here to play">
-<a class="youtube-lazy-link" style="width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/REr-OK0LUBw/0.jpg) center center no-repeat;background-size:contain;position:absolute" href="http://www.youtube.com/watch?v=REr-OK0LUBw" id="REr-OK0LUBw" onclick="return false;">
-<div class="youtube-lazy-link-div"></div>
-<div class="youtube-lazy-link-info">Как зарабатывать от 1000$ на android приложениях</div>
-</a>
-<div class="video-info" >Видео для сайта 
-android-helper.com.ua
-
-Превью вебинара &#8220;Как зарабатывать от 1000$ на android приложениях&#8221;.
-Записаться можно по ссылке!
-
-http://android-helper.com.ua/webinar-1000/</div>
+        <h1 class="entry-title"><center>Search Results</center></h1>
+<div id="search_loading" style="margin: 40px 0">
+    <center><img src="/images/loading.gif"></center>
 </div>
 
-
-
+<script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
+<div id="search_results" style="display:none">
+<br>
 </div>
-</article>
-
-
-<section id="comment">
-    <h1 class="title">Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-</section>
+<script>
+         $('#search_results').tapir({
+             'token': '',
+             'complete' : function() { document.getElementById('search_loading').style.display="none"; }
+         });
+</script>
 
 
     </div>
@@ -158,10 +130,7 @@ http://android-helper.com.ua/webinar-1000/</div>
       var disqus_shortname = 'androidhelper';
       
         
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://infos.android-helper.com.ua//webinar-1000/index.html';
-        var disqus_url = 'http://infos.android-helper.com.ua//webinar-1000/index.html';
-        var disqus_script = 'embed.js';
+        var disqus_script = 'count.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
